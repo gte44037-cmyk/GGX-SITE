@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Моя визитка</title>
+  <style>
+    body { font-family: Arial; background: #f4f4f4; text-align: center; padding: 50px; }
+    h1 { color: #333; }
+    .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px #ccc; display: inline-block; }
+    button { padding: 10px 20px; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Привет, я GGx!</h1>
+    <p>Я начинающий HTML-верстальщик. Создаю простые сайты и лендинги.</p>
+    <p>Email: gte44037@gmail.com</p>
+    <button onclick="alert('Спасибо за интерес! Напишите мне на email.')">Написать</button>
+  </div>
+</body>
+</html>
